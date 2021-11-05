@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "226272025032",
+    "project_id": "travelrecordapp-a9774",
+    "storage_bucket": "travelrecordapp-a9774.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:226272025032:android:4f2cc85f20bd27c12688fd",
+        "android_client_info": {
+          "package_name": "com.companyname.firstxamarinapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "226272025032-76eb3h5assb6ps1ejrql7tjro5n9upel.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyFBsHgPvgWr1JAZHl4RJrNINU9grUSuo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "226272025032-76eb3h5assb6ps1ejrql7tjro5n9upel.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

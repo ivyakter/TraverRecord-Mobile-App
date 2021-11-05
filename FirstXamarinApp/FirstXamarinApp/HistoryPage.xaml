@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:FirstXamarinApp.ViewModel"
+             x:Class="FirstXamarinApp.HistoryPage">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <vm:HistoryVM x:Key="vm" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ListView x:Name="postListView" BindingContext="{StaticResource vm}" ItemsSource="{Binding Source={StaticResource vm}, Path=Posts}"
+              SelectedItem="{Binding Source={StaticResource vm}, Path=SelectedPost}">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <TextCell Text="{Binding Experience}"/>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>
